@@ -1,0 +1,33 @@
+[project]
+name = "hengseng-price-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tharun", email = "tharunreddy2112005@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "apify-client>=3.5.1",
+    "exa-py>=2.29.0",
+    "groq>=1.7.0",
+    "langchain>=1.5.2",
+    "langchain-groq>=1.2.1",
+    "langchain-openai>=1.8.5",
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "plotly>=7.2.0",
+    "pydantic>=2.14.4",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.67.0",
+    "xgboost>=3.4.1",
+    "yfinance>=1.8.0",
+]
+
+[project.scripts]
+hengseng-price-prediction = "hengseng_price_prediction:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

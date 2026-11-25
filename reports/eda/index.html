@@ -1,0 +1,129 @@
+
+    <html>
+    <head>
+        <title>Hong Kong Stock Sentiment EDA</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+                background: #f7f7f7;
+            }
+            h1, h2 {
+                color: #222;
+            }
+            a {
+                display: block;
+                margin: 12px 0;
+                color: #1565c0;
+            }
+            .section {
+                background: white;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Hong Kong Stock Sentiment Analysis</h1>
+
+        <div class="section">
+            <h2>Dataset Overview</h2>
+            <p>Total records: 2460</p>
+            <p>Total columns: 35</p>
+            <p>Stocks analysed: 5</p>
+            <p>Start date: 2024-11-25</p>
+            <p>End date: 2026-11-24</p>
+        </div>
+
+        <div class="section">
+            <h2>Visualizations</h2>
+
+            <a href="stock_price_trends.html">
+                Stock Price Trends
+            </a>
+
+            <a href="sentiment_trends.html">
+                Sentiment Trends
+            </a>
+
+            <a href="sentiment_distribution.html">
+                Sentiment Distribution
+            </a>
+
+            <a href="sentiment_vs_returns.html">
+                Sentiment vs Next-Day Returns
+            </a>
+
+            <a href="social_vs_news_activity.html">
+                Social Media vs News Activity
+            </a>
+
+            <a href="feature_correlation.html">
+                Feature Correlation Heatmap
+            </a>
+        </div>
+
+        <div class="section">
+            <h2>Sentiment Coverage</h2>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>trading_days</th>
+      <th>days_with_mentions</th>
+      <th>total_mentions</th>
+      <th>average_sentiment</th>
+    </tr>
+    <tr>
+      <th>ticker</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0005.HK</th>
+      <td>492</td>
+      <td>5</td>
+      <td>9.0</td>
+      <td>-0.001016</td>
+    </tr>
+    <tr>
+      <th>0700.HK</th>
+      <td>492</td>
+      <td>7</td>
+      <td>11.0</td>
+      <td>-0.002007</td>
+    </tr>
+    <tr>
+      <th>1810.HK</th>
+      <td>492</td>
+      <td>3</td>
+      <td>11.0</td>
+      <td>-0.000392</td>
+    </tr>
+    <tr>
+      <th>3690.HK</th>
+      <td>492</td>
+      <td>2</td>
+      <td>3.0</td>
+      <td>0.001677</td>
+    </tr>
+    <tr>
+      <th>9988.HK</th>
+      <td>492</td>
+      <td>5</td>
+      <td>14.0</td>
+      <td>0.002561</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+
+    </body>
+    </html>
+    

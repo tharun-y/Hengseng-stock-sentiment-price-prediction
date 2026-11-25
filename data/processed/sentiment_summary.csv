@@ -1,0 +1,6 @@
+﻿ticker,company,total_mentions,relevant_mentions,positive_mentions,negative_mentions,neutral_mentions,average_sentiment_score,bullish_mentions,bearish_mentions,sideways_mentions
+3690.HK,Meituan,17,8,5,2,1,0.325,5,2,0
+9988.HK,Alibaba,26,19,12,6,1,0.2211,12,6,0
+1810.HK,Xiaomi,27,19,10,4,5,0.1895,9,3,1
+0005.HK,HSBC,20,16,7,8,1,0.0063,5,8,3
+0700.HK,Tencent,19,15,2,10,3,-0.1767,3,10,2
